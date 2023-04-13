@@ -7,7 +7,7 @@ Find tensorboard values in each model folder
 To have high mAP above 0.45
 No Overfitting or Underfitting occur
 
-#Experiment
+# Experiment
 Training the three models 
 
 Starting with the EfficientDet D1 640x640 to have acceptable loss for training and eval of 0.4,0.5 poor for DetectionBoxes_Percision/mAP with 0.1 value
@@ -18,5 +18,5 @@ Learning from my mistakes at ResNet50 model and starting SSD MobileNet V2 FPNLit
 
 To improve the performance i will need better hyperparameters tuning for the values I used and may increase training steps for some models and sure add some data augmentation to the data input
 
-#Choise
+# Choise
 In my case I had the best performace but still poor from SSD MobileNet V2 FPNLite 640x640 model it will be acceptable in some cases but not for self driving cars as this case is critical but it still fastest to implement and deploy but for future work I will improve SSD ResNet50 V1 FPN 640x640 (RetinaNet50) hyperparameters tuning to avoid overfitting and with so improvements this case will be the best
